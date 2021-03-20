@@ -1,0 +1,197 @@
+@import "css/reset.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 110vh;
+}
+
+header {
+  background-color: #ffce33;
+  width: 400px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px;
+  font-size: 18px;
+  font-weight: 600;
+  position: relative;
+  top: 20px;
+}
+
+.search {
+  background-color: white;
+  width: 380px;
+  height: 60px;
+  position: relative;
+  top: 40px;
+  left: 10px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  color: rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 5px 10px 3px rgba(0, 0, 0, 0.08);
+}
+
+input {
+  border: none;
+}
+
+input::placeholder {
+  color: rgba(0, 0, 0, 0.2);
+  font-size: 18px;
+}
+input:focus {
+  outline: none;
+}
+
+section {
+  width: 400px;
+  margin-left: 20px;
+}
+
+.subtitle {
+  font-size: 23px;
+  font-weight: 600;
+  margin: 15px 0px 10px 0px;
+}
+
+.img__top {
+  width: 150px;
+  border-radius: 15px;
+  margin: 10px 10px 10px 0px;
+}
+
+.box__top {
+  display: flex;
+  align-items: center;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 220px;
+  margin: 6px;
+}
+
+h2 {
+  font-size: 20px;
+  margin: inherit;
+}
+h3 {
+  color: rgba(0, 0, 0, 0.4);
+  margin: inherit;
+}
+
+.star__top {
+  margin: inherit;
+}
+
+.fa-star {
+  margin: 0px 2px;
+  color: #ffce33;
+}
+
+.button {
+  margin: inherit;
+}
+
+button {
+  border: none;
+  width: 90px;
+  height: 30px;
+  margin: 10px 10px 0px 0px;
+}
+
+.book__mark {
+  display: flex;
+  margin: inherit;
+}
+
+.circle {
+  height: 38px;
+  width: 38px;
+  background-color: #ffce33;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-right: 52px;
+}
+
+.booknow {
+  width: 110px;
+  height: 38px;
+  border-radius: 5px;
+  background-color: #0d0d0d;
+  color: gainsboro;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+}
+
+section {
+  margin-top: 40px;
+}
+
+.box__mid {
+  width: 390px;
+  display: flex;
+  overflow: hidden;
+  margin-bottom: 28px;
+}
+
+.book {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 15px;
+}
+
+.img__mid {
+  width: 80px;
+  border-radius: 10px;
+  margin: 15px 15px 15px 0px;
+}
+
+.star {
+  font-size: 10px;
+  margin-left: 3px;
+}
+
+.img__bot {
+  border-radius: 15px;
+}
+/*overflow: hidden 사용해보세요*/
+
+.box__bot {
+  display: flex;
+  margin-top: 30px;
+}
+
+.content__bot {
+  display: flex;
+  flex-direction: column;
+  margin: 3px 10px;
+}
+
+p {
+  font-size: 13px;
+  line-height: 1.5;
+  margin: inherit;
+  color: rgba(0, 0, 0, 0.4);
+}
