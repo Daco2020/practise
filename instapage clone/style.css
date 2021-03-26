@@ -59,9 +59,10 @@ body {
 }
 
 .top__icons i:hover,
-.top__icons div:hover {
+.top__icons div:hover,
+.fa-lg:hover,
+.intro-name-button:hover {
   color: black;
-  border-color: black;
   cursor: pointer;
 }
 
@@ -121,6 +122,7 @@ input {
   margin-top: 52px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.15);
   display: flex;
+  align-items: center;
 }
 
 .intro_selfie {
@@ -139,10 +141,55 @@ input {
 
 .intro__profile {
   width: 500px;
-  height: 225px;
+  height: 190px;
   padding: 0 30px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: space-evenly;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.intro-name {
+  font-size: 25px;
+  font-weight: lighter;
+  margin-right: 15px;
+  position: relative;
+  top: 3px;
+}
+
+span span,
+.intro__profile__bottom-title {
+  font-weight: bold;
+}
+
+.intro__profile__mid span {
+  margin-right: 12px;
+}
+
+.span-button {
+  font-size: 16px;
+}
+
+span span {
+  font-size: 15px;
+}
+
+.intro__profile__bottom {
+  line-height: 25px;
+}
+
+.intro-name-button {
+  width: 95px;
+  height: 30px;
+  background-color: #fafafa;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  font-weight: bold;
+  outline: none;
+}
+
+.fa-lg {
+  padding: 0 0 0 5px;
+  color: rgba(0, 0, 0, 0.6);
 }
